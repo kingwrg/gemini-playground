@@ -22,7 +22,7 @@ export class MultimodalLiveClient extends EventEmitter {
 	constructor() {
 	super();
 	const wsProtocol = window.location.protocol === "https:" ? "wss:" : "ws:";
-	this.baseUrl = `wss://gemini.gemini.us.kg/ws/google.ai.generativelanguage.v1alpha.GenerativeService.BidiGenerateContent?key=${CONFIG.API.KEY}`;
+	this.baseUrl = `wss://gemini.gemini2.us.kg/ws/google.ai.generativelanguage.v1alpha.GenerativeService.BidiGenerateContent?key=${CONFIG.API.KEY}`;
 	this.ws = null;
 	this.config = null;
 	this.send = this.send.bind(this);
