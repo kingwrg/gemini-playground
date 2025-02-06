@@ -2,7 +2,7 @@ export const CONFIG = {
 	API: {
 		VERSION: "v1alpha",
 		MODEL_NAME: "models/gemini-2.0-flash-exp",
-		KEY: "AIzaSyDitJzo5XUA7DTYEamKXGzmAXuVR92a5bc",
+		KEY: "AIzaSyAkff9vOyurPy910m0wJYbRqDfvk8KB4iQ",
 	},
 	// You can change the system instruction to your liking
 	SYSTEM_INSTRUCTION: {
